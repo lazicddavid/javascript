@@ -25,12 +25,9 @@ const informacije = `${ime} ${prezime} ima ${godine} godina`;
 console.log(godine);
 console.log(informacije);
 */
-const firstName = "David";
-const job = "teacher";
-const birthYear = 1991;
-const year = 2037;
+const age = 15;
+const isOldEnough = age >= 18;
 
-const David =
-  "I am" + firstName + ", a" + (year - birthYear) + " years old " + "!";
-
-console.log(David);
+if (isOldEnough) {
+  console.log("Sarah can star driving licence");
+}
