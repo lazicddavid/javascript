@@ -1,4 +1,4 @@
-console.log("moj prvi projekat");
+/*console.log("moj prvi projekat");
 
 const ime = "lazar";
 
@@ -24,4 +24,13 @@ const informacije = `${ime} ${prezime} ima ${godine} godina`;
 
 console.log(godine);
 console.log(informacije);
- 
+*/
+const firstName = "David";
+const job = "teacher";
+const birthYear = 1991;
+const year = 2037;
+
+const David =
+  "I am" + firstName + ", a" + (year - birthYear) + " years old " + "!";
+
+console.log(David);
